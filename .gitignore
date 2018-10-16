@@ -1,0 +1,10 @@
+.vs/
+AnimalProject/obj/
+AnimalProject.Tests/obj/
+AnimalProject.Tests/bin/
+AnimalProject/bin/
+AdapterPattern.Domain/bin/
+AdapterPattern/obj/
+AnimalProject.Domain/obj/
+AdapterPattern.Domain/obj/
+AdapterPattern/bin/
