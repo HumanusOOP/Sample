@@ -10,11 +10,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AnimalProject.Domain\AnimalProject.Domain.csproj" />
+    <ProjectReference Include="..\EFDomain\EFDomain.csproj" />
   </ItemGroup>
 
 </Project>

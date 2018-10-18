@@ -8,3 +8,7 @@ AdapterPattern/obj/
 AnimalProject.Domain/obj/
 AdapterPattern.Domain/obj/
 AdapterPattern/bin/
+EFApi/bin/
+EFApi/obj/
+EFDomain/bin/
+EFDomain/obj/
