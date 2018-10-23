@@ -12,3 +12,10 @@ EFApi/bin/
 EFApi/obj/
 EFDomain/bin/
 EFDomain/obj/
+Airplane/bin/
+Airplane/obj/
+node_modules/
+NotesApi/bin/
+NotesApi/obj/
+NotesDomain/obj/
+Recursion/obj/
