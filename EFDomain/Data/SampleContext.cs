@@ -8,5 +8,6 @@ namespace EFDomain.Data
         { }
 
         public DbSet<Value> Entities { get; set; }
+        public DbSet<Person> Persons { get; set; }
     }
 }

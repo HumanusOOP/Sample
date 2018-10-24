@@ -26,7 +26,9 @@ namespace EFApi
         {
             services.AddDbContext<SampleContext>(options => options.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=PlayGround;Integrated Security=True"));
             services.AddTransient<IValueService, ValueService>();
+            services.AddTransient<IEmployeeService, EmployeeService>();
             services.AddTransient<IValueRepository, ValueRepository>();
+            services.AddTransient<IPersonRepository, PersonRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
